@@ -29,7 +29,7 @@ if ( sizeof($request_array['events']) > 0 )
 	   	if($text == "สถานการณ์โควิดวันนี้" || $text == "covid19" || $text == "covid-19" || $text == "Covid-19"){
 		   $url = 'https://covid19.th-stat.com/api/open/today';
 		   $ch = curl_init($url);
-		   curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST");
+		   curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "GET");
 		   curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 		   curl_setopt($ch, CURLOPT_HTTPHEADER, $post_header);
 		   curl_setopt($ch, CURLOPT_POSTFIELDS, $post_body);
