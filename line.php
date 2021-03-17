@@ -1,7 +1,7 @@
 <?php
 
 $API_URL = 'https://api.line.me/v2/bot/message/reply';
-$ACCESS_TOKEN = 'apZLwizF1ExwIeTF5Vx7jtFyEs4hITJP0ATcUKTpM9pBGAPRvwY/dNnv8OLRJrmpIAbvfXoe7kwdRxU2D980xYGwIrrWPv44in7ccjS4TmCb3J1FuroEJPEFVfyMGMf9gbSeCcsVLF0COzSuOAgU7QdB04t89/1O/w1cDnyilFU='; // Access Token ค่าที่เราสร้างขึ้น
+$ACCESS_TOKEN = 'mpUCXr3gNcwJMTwen/87XcwSncTrdtMAxxRZDLG+dW92Z/8OFpNPMc/issCrpF2uyvi8X6ltVPLBhAZKbLqH5O0xrtYTRF2wHUHBMlIa+oPLnQT88zeZKK+wkZxlvwFG0ELggcr2cp2/rdgkkIlUoQdB04t89/1O/w1cDnyilFU='; // Access Token ค่าที่เราสร้างขึ้น
 $POST_HEADER = array('Content-Type: application/json', 'Authorization: Bearer ' . $ACCESS_TOKEN);
 
 $request = file_get_contents('php://input');   // Get request content
