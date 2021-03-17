@@ -29,7 +29,7 @@ if ( sizeof($request_array['events']) > 0 )
 	   	if($text == "สถานการณ์โควิดวันนี้" || $text == "covid19" || $text == "covid-19" || $text == "Covid-19"){
 		   //$url = 'https://covid19.th-stat.com/api/open/today';
 		   //$ch = curl_init('https://covid19.th-stat.com/api/open/today');
-		   $url = 'https://api.line.me/v2/bot/message/reply';
+		   $url = 'https://covid19.th-stat.com/api/open/today';
             $data = [
                 'replyToken' => $replyToken,
                 'messages' => [$messages]
